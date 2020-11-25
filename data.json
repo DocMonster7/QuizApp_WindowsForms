@@ -1,0 +1,125 @@
+{
+   "response_code":0,
+   "results":[
+      {
+         "category":"Entertainment: Film",
+         "type":"multiple",
+         "difficulty":"medium",
+         "question":"Who plays the Nemesis in the Resident Evil movies?",
+         "correct_answer":"Matthew Taylor",
+         "incorrect_answers":[
+            "Jason Dip",
+            "Eric Mabius",
+            "Jimmy Matts"
+         ]
+      },
+      {
+         "category":"Entertainment: Film",
+         "type":"multiple",
+         "difficulty":"medium",
+         "question":"In The Lord of the Rings: The Fellowship of the Ring, which one of the following characters from the book was left out of the film?",
+         "correct_answer":"Tom Bombadil",
+         "incorrect_answers":[
+            "Strider",
+            "Barliman Butterbur",
+            "Celeborn"
+         ]
+      },
+      {
+         "category":"Entertainment: Film",
+         "type":"multiple",
+         "difficulty":"medium",
+         "question":"In Back to the Future Part II, Marty and Dr. Emmett Brown go to which future date?",
+         "correct_answer":"October 21, 2015",
+         "incorrect_answers":[
+            "August 28, 2015",
+            "July 20, 2015",
+            "January 25, 2015"
+         ]
+      },
+      {
+         "category":"Entertainment: Film",
+         "type":"multiple",
+         "difficulty":"medium",
+         "question":"Which animated film did Steven Lisberger direct in 1980 before going on to direct Tron?",
+         "correct_answer":"Animalympics",
+         "incorrect_answers":[
+            "The Fox and the Hound",
+            "The Black Cauldron",
+            "The Great Mouse Detecive"
+         ]
+      },
+      {
+         "category":"Entertainment: Film",
+         "type":"multiple",
+         "difficulty":"medium",
+         "question":"Who was the director of &quot;Scott Pilgrim vs. the World (2010)&quot;?",
+         "correct_answer":"Edgar Wright",
+         "incorrect_answers":[
+            "Phil Lord",
+            "Chris Miller",
+            "Seth Rogan"
+         ]
+      },
+      {
+         "category":"Entertainment: Film",
+         "type":"multiple",
+         "difficulty":"medium",
+         "question":"In the &quot;Jurassic Park&quot; universe, what is the name of the island that contains InGen&#039;s Site B?",
+         "correct_answer":"Isla Sorna",
+         "incorrect_answers":[
+            "Isla Nublar",
+            "Isla Pena",
+            "Isla Muerta"
+         ]
+      },
+      {
+         "category":"Entertainment: Film",
+         "type":"multiple",
+         "difficulty":"medium",
+         "question":"Who directed the movie &quot;Alien&quot;?",
+         "correct_answer":"Ridley Scott",
+         "incorrect_answers":[
+            "Christopher Nolan",
+            "Michael Bay",
+            "James Cameron"
+         ]
+      },
+      {
+         "category":"Entertainment: Film",
+         "type":"multiple",
+         "difficulty":"medium",
+         "question":"Which actor and martial artist starred as Colonel Guile in the 1994 action film adaptation of Street Fighter?",
+         "correct_answer":"Jean-Claude Van Damme",
+         "incorrect_answers":[
+            "Chuck Norris",
+            "Steven Seagal",
+            "Scott Adkins"
+         ]
+      },
+      {
+         "category":"Entertainment: Film",
+         "type":"multiple",
+         "difficulty":"medium",
+         "question":"Who did the score to the original Blade Runner?",
+         "correct_answer":"Vangelis",
+         "incorrect_answers":[
+            "Kitaro",
+            "Yanni",
+            "Enya"
+         ]
+      },
+      {
+         "category":"Entertainment: Film",
+         "type":"multiple",
+         "difficulty":"medium",
+         "question":"What is the birth name of Michael Caine?",
+         "correct_answer":"Maurice Micklewhite",
+         "incorrect_answers":[
+            "Morris Coleman",
+            "Carl Myers",
+            "Martin Michaels"
+         ]
+      }
+   ]
+}

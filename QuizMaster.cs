@@ -7,15 +7,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Newtonsoft;
 
 namespace QuizApp_WindowsForms
 {
-    public partial class Form1 : Form
+    public partial class QuizMaster : Form
     {
-        public Form1()
+        public QuizMaster()
         {
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
