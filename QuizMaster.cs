@@ -12,9 +12,11 @@ using Newtonsoft.Json.Linq;
 
 namespace QuizApp_WindowsForms
 {
+    
     public partial class QuizMaster : Form
     {
-        public static string answer1, answer2, answer3;
+        static string answer1, answer2, answer3;
+        static int score=0;
         public QuizMaster()
         {
             InitializeComponent();
@@ -24,6 +26,7 @@ namespace QuizApp_WindowsForms
         {
             JObject questionDump = JObject.Parse(File.ReadAllText(@"data.json"));
             Load_Questions(questionDump);
+            
         }
 
        
@@ -35,6 +38,7 @@ namespace QuizApp_WindowsForms
             
             lbQuestion1.Text = (string)questionDump["results"][randomQuestion]["question"];
             rbQuestion11.Text = (string)questionDump["results"][randomQuestion]["correct_answer"];
+            answer1 = rbQuestion11.Text;
             rbQuestion12.Text = (string)questionDump["results"][randomQuestion]["incorrect_answers"][0];
             rbQuestion13.Text = (string)questionDump["results"][randomQuestion]["incorrect_answers"][2];
             rbQuestion14.Text = (string)questionDump["results"][randomQuestion]["incorrect_answers"][1];
@@ -47,6 +51,7 @@ namespace QuizApp_WindowsForms
 
             lbQuestion2.Text = (string)questionDump["results"][randomQuestion]["question"];
             rbQuestion24.Text = (string)questionDump["results"][randomQuestion]["correct_answer"];
+            answer2 = rbQuestion24.Text;
             rbQuestion21.Text = (string)questionDump["results"][randomQuestion]["incorrect_answers"][0];
             rbQuestion23.Text = (string)questionDump["results"][randomQuestion]["incorrect_answers"][2];
             rbQuestion22.Text = (string)questionDump["results"][randomQuestion]["incorrect_answers"][1];
@@ -60,6 +65,7 @@ namespace QuizApp_WindowsForms
 
             lbQuestion3.Text = (string)questionDump["results"][randomQuestion]["question"];
             rbQuestion33.Text = (string)questionDump["results"][randomQuestion]["correct_answer"];
+            answer3 = rbQuestion33.Text;
             rbQuestion32.Text = (string)questionDump["results"][randomQuestion]["incorrect_answers"][0];
             rbQuestion31.Text = (string)questionDump["results"][randomQuestion]["incorrect_answers"][2];
             rbQuestion34.Text = (string)questionDump["results"][randomQuestion]["incorrect_answers"][1];
@@ -154,7 +160,37 @@ namespace QuizApp_WindowsForms
 
         private void btSubmit_Click(object sender, EventArgs e)
         {
-
+            //submit is here
+            // rb correct answers option 11 24 33
+            
+            if (rbQuestion11.Checked)
+            {
+                score++;
+            }
+            if (rbQuestion24.Checked)
+            {
+                score++;
+                
+            }
+            if (rbQuestion33.Checked)
+            {
+                score++;
+            }
+            if (score == 0)
+            {
+                MessageBox.Show("Your Final Score Zero Better Luck Next Time");
+            }
+            else if (score>0&&score<3)
+            {
+                MessageBox.Show("You Scored " + score);
+            }
+            else
+            {
+                MessageBox.Show("Wow Amazing you got everything Right. You are a Movie Wizard");
+            }
+            JObject questionDump = JObject.Parse(File.ReadAllText(@"data.json"));
+            Load_Questions(questionDump);
+            this.tcQuizMasterDisplay.SelectedTab = this.tpQuestion1;
         }
 
         private void rbQuestion34_CheckedChanged(object sender, EventArgs e)
