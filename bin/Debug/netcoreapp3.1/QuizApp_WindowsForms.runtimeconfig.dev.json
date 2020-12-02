@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Erza\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Erza\\.nuget\\packages"
+    ]
+  }
+}

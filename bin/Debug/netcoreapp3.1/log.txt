@@ -1,0 +1,108 @@
+
+[19:05:56 25 November 2020]	 Initialization
+-----------------------
+
+[19:05:56 25 November 2020]	 Initilization Complete
+-----------------------
+
+[19:05:56 25 November 2020]	 Form Quiz Master Loaded
+-----------------------
+
+[19:05:56 25 November 2020]	 data.json laoded in the form
+-----------------------
+
+[19:05:56 25 November 2020]	 First Question Loading
+-----------------------
+
+[19:05:57 25 November 2020]	 First Question Loaded
+-----------------------
+
+[19:05:57 25 November 2020]	 Second Question Loading
+-----------------------
+
+[19:05:57 25 November 2020]	 Second Question Loaded
+-----------------------
+
+[19:05:57 25 November 2020]	 Third Question Loading
+-----------------------
+
+[19:05:57 25 November 2020]	 Third Question Loaded
+-----------------------
+
+[19:05:57 25 November 2020]	 Questions Loaded onto the tab control
+-----------------------
+
+[19:06:33 25 November 2020]	 btNext1 Clicked
+-----------------------
+
+[19:06:42 25 November 2020]	 btNextQuestion2 clicked
+-----------------------
+
+[19:06:43 25 November 2020]	 Submit button clicked
+-----------------------
+
+[19:06:43 25 November 2020]	 Score Calculated
+-----------------------
+
+[19:06:45 25 November 2020]	 Message displayed
+-----------------------
+
+[19:06:45 25 November 2020]	 data.json Loaded
+-----------------------
+
+[19:06:45 25 November 2020]	 First Question Loading
+-----------------------
+
+[19:06:45 25 November 2020]	 First Question Loaded
+-----------------------
+
+[19:06:45 25 November 2020]	 Second Question Loading
+-----------------------
+
+[19:06:45 25 November 2020]	 Second Question Loaded
+-----------------------
+
+[19:06:45 25 November 2020]	 Third Question Loading
+-----------------------
+
+[19:06:45 25 November 2020]	 Third Question Loaded
+-----------------------
+
+[19:06:45 25 November 2020]	 Questions Loaded onto the tab control
+-----------------------
+
+[19:06:45 25 November 2020]	 Tab switched
+-----------------------
+
+[11:13:28 29 November 2020]	 Initialization
+-----------------------
+
+[11:13:29 29 November 2020]	 Initilization Complete
+-----------------------
+
+[11:13:29 29 November 2020]	 Form Quiz Master Loaded
+-----------------------
+
+[11:13:29 29 November 2020]	 data.json laoded in the form
+-----------------------
+
+[11:13:29 29 November 2020]	 First Question Loading
+-----------------------
+
+[11:13:29 29 November 2020]	 First Question Loaded
+-----------------------
+
+[11:13:29 29 November 2020]	 Second Question Loading
+-----------------------
+
+[11:13:29 29 November 2020]	 Second Question Loaded
+-----------------------
+
+[11:13:29 29 November 2020]	 Third Question Loading
+-----------------------
+
+[11:13:29 29 November 2020]	 Third Question Loaded
+-----------------------
+
+[11:13:29 29 November 2020]	 Questions Loaded onto the tab control
+-----------------------
